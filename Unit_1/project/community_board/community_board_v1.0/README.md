@@ -26,7 +26,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![Gif image](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWpkdjlrMGdndzEzemZhMXdrY3lhZGVqYzFiYnJ5cjhpbHFxdnZ1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wI7tWchEzjYZihJp7y/giphy.gif)
+![Gif image]![community_boardv1 1-resize](https://github.com/okornoe/codepath_web102_course/assets/12277906/2d080a5d-2bb0-43f8-93a5-ddc8a18ffe6a)
+hJp7y/giphy.gif)
 
 
 <!-- Replace this with whatever GIF tool you used! -->
