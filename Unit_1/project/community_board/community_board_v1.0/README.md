@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWpkdjlrMGdndzEzemZhMXdrY3lhZGVqYzFiYnJ5cjhpbHFxdnZ1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wI7tWchEzjYZihJp7y/giphy.gif)
+![Gif image](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWpkdjlrMGdndzEzemZhMXdrY3lhZGVqYzFiYnJ5cjhpbHFxdnZ1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wI7tWchEzjYZihJp7y/giphy.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
