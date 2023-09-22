@@ -28,7 +28,6 @@ Here's a walkthrough of implemented required features:
 
 ![Gif image](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWpkdjlrMGdndzEzemZhMXdrY3lhZGVqYzFiYnJ5cjhpbHFxdnZ1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wI7tWchEzjYZihJp7y/giphy.gif)
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmUwMHJmcGprMjIyNWR4dGs2MmM4YWQxZWE4ZjVvbGNmdGpxdHVqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JyXYTp8oRFDPrEApnA/giphy.gif" width="100" height="100" />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
