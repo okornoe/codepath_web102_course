@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![](https://i.imgur.com/SHphH9y.gifv)
+![Walk through](https://i.imgur.com/SHphH9y.gifv)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
