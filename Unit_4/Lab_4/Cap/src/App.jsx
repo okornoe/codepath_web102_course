@@ -2,6 +2,7 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
 import APIForm from './components/APIForm';
+import Gallery from './components/Gallery';
 
 const ACCESS_KEY = import.meta.env.VITE_APP_ACCESS_KEY;
 
@@ -16,6 +17,7 @@ function App() {
   });
 
   const [currentImage, setCurrentImage] = useState(null);
+  const [prevImages, setPrevIimages] = useState(null);
 
   const callAPI = async (query) => {
     const response = await fetch(query);
@@ -25,6 +27,7 @@ function App() {
       alert("Oops! Soemthing went wrong with that query, let's try again")
     } else {
       setCurrentImage(json.url);
+      setPrevIimages((images) => [...images, json.url]);
       reset();
     }
 
@@ -119,6 +122,10 @@ function App() {
         &no_ads={inputs.no_ads}
         <br></br>
       </p>
+  </div>
+
+  <div className='container'>
+    <Gallery images={prevImages} />
   </div>
     </>
   );
