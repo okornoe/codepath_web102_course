@@ -8,7 +8,7 @@ const inputsInfo = [
     "Choose the width of your screenshot (in pixels)",
     "Choose the height of your screenshot (in pixels)",
   ];
-  
+
 const APIForm =({inputs, handleChange, onSubmit}) => {
   return (
     <div>
