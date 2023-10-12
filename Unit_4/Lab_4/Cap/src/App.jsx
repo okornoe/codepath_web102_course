@@ -15,6 +15,19 @@ function App() {
     height: "",
   });
 
+  const [currentImage, setCurrentImage] = useState(null);
+
+  const callAPI = async (query) => {
+    const response = await fetch(query);
+    const json =  await response.json();
+
+    if (json.url == null) {
+      alert("Oops! Soemthing went wrong with that query, let's try again")
+    } else {
+      setCurrentImage(json.url);
+    }
+  }
+
   const submitForm = () => {
     let defaultValues = {
       format: "jpeg",
