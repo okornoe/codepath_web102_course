@@ -3,31 +3,30 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+//import access key
+const ACCESS_KEY = import.meta.env.VENI_APP_ACCESS_KEY;
+
 function App() {
   const [count, setCount] = useState(0)
 
+  
+
+  const makeQuery = () => {
+    let query = `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY`;
+    callAPI(query).catch(console.error);
+  }
+
+  const callAPI = async (query) => {
+    const response = await fetch(query);
+    const json = await response.json();
+    console.log(json);
+  }
+
+  makeQuery();
+
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h3>Test run</h3>
     </>
   )
 }
