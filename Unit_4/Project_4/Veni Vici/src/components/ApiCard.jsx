@@ -5,7 +5,7 @@ const ApiCard = ({onSubmit}) => {
   return (
     <div>
         <div className='whole-page'>
-            <h1>Trippin' on Cats</h1>
+            <h1>Mars Rovers</h1>
             <h3>Discover Mars!</h3>
             <br></br>
             <br></br>
@@ -13,7 +13,6 @@ const ApiCard = ({onSubmit}) => {
                 <h2>Filter Buttons</h2>
                 <div>
                     
-                    <button>Remove</button>
                 </div>
                 <div className='fetch-api'>
                     <button type='submit' className='button' onClick={onSubmit}>Fetch the api</button>
