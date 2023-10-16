@@ -10,9 +10,6 @@ const json = "";
 function App() {
   const [jsonRespone, setJsonResponse] = useState()
 
-
-  
-
   const makeQuery = () => {
     let query = `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY`;
     callAPI(query).catch(console.error);
