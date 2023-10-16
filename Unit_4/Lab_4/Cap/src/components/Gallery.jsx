@@ -12,7 +12,6 @@ const Gallery = ({images}) => {
                                 alt="Undefined screenshot from query"
                                 width="500"
                             />
-
                         </li>
                     ))):(<div>
                         <h3>You haven't made a screenshot yet!</h3>
