@@ -30,18 +30,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![api_call_response](https://github.com/okornoe/codepath_web102_course/assets/12277906/351c4b1c-c50e-4703-a501-0b6754937b1d)
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+I struggle getting access to the api response after calling it to use.
+I also had less time and concentration, because of other engagements.
 
 ## License
 
